@@ -1,4 +1,3 @@
-//your code here
 const img = document.querySelector('.img-holder img')
   const userNameEl = document.querySelector('h2.user-name')
   const userInfoEl = document.querySelector('.user-info')
@@ -21,7 +20,7 @@ const img = document.querySelector('.img-holder img')
   email,
   image,
   name: `${first} ${last}`,
-  age,
+  age
   };
   }
   const display = async () =>{
